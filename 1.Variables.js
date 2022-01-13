@@ -38,6 +38,15 @@ function grab(){
     var k = 34234 // Local / Functional Scope
     console.log(j)
 }
+// Lexical Scope
+d = 13
+function add(){
+    // d = 12
+    function display(){
+        // d = 18
+        console.log(d)
+    }
+}
 
 
 // Block Scope
@@ -64,6 +73,15 @@ if(m == 12 ){
 }
 
 
+console.log(q)
+
+var q 
+
+var r = 10.457
+
+var r = 23578
+
+console.log(r)
 
 
 
