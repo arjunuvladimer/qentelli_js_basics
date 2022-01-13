@@ -9,3 +9,12 @@ var array2 = [[1,2],[3,4]]
 
 
 // Objects
+// var obj = {
+//     key: value
+// }
+var obj1 = {
+    name: 'arjun',
+    func1: function add(){
+        
+    }
+}
